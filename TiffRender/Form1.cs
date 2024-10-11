@@ -51,5 +51,10 @@ namespace TiffRender
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ImageZoom imageZoom = new ImageZoom();
+            imageZoom.Show();
+        }
     }
 }
