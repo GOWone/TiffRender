@@ -56,5 +56,11 @@ namespace TiffRender
             ImageZoom imageZoom = new ImageZoom();
             imageZoom.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CollapseDialogBox collapseDialogBox = new CollapseDialogBox();
+            collapseDialogBox.Show();
+        }
     }
 }
